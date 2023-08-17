@@ -7,7 +7,11 @@ Below are the steps followed.
 5.	Launch the Minikube dashboard
 
 
-6.	Deploying Applications: To deploy an application to your Minikube cluster, use the kubectl apply command to deploy and create services. Cd into client and run kubectl apply -f client-deployment.yaml –f client-service.yaml and then cd into backend and run kubectl apply -f deployment.yaml -f service.yaml -f configmap.yaml.
+6.	Deploying Applications: To deploy an application to your Minikube cluster, use the kubectl apply command.  to deploy and create services. 
+   Cd into client:
+   run kubectl apply -f client-deployment.yaml –f client-service.yaml 
+    cd into backend 
+    run kubectl apply -f deployment.yaml -f service.yaml -f configmap.yaml.
 7.	Accessing Services
 8.	Cleaning Up
 
